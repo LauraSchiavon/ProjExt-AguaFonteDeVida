@@ -1,0 +1,261 @@
+.imagem_topo_curso {
+    position: absolute;
+    width: 1024px;
+    height: 287.93px;
+    left: 0px;
+    top: 51px;
+}
+
+.navbar{
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+
+    background: #1272A8;
+}
+
+.botao_home{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 609px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_sobre{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 672px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_projetos{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 735px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_videos{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 819px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_blog{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 890px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.botao_contato{
+    position: absolute;
+    width: 79px;
+    height: 35px;
+    left: 945px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.titulo_sobre{
+    position: absolute;
+    width: 308px;
+    height: 17px;
+    left: 455px;
+    top: 380px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #1272A8;
+}
+
+.linha_1{
+    position: absolute;
+    width: 382px;
+    height: 0px;
+    left: 321px;
+    top: 418.02px;
+
+    border: 1px solid #1272A8;
+    transform: rotate(-0.15deg);
+}
+
+.texto_sobre{
+    position: absolute;
+    width: 722px;
+    height: 263px;
+    left: 155px;
+    top: 421px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagem_meio{
+    position: absolute;
+    width: 149px;
+    height: 151px;
+    left: 442px;
+    top: 666px;
+}
+
+.titulo_projetos{
+    position: absolute;
+    width: 308px;
+    height: 17px;
+    left: 444px;
+    top: 885px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #1272A8;
+}
+
+.linha_2{
+    position: absolute;
+    width: 382px;
+    height: 0px;
+    left: 328px;
+    top: 922.02px;
+
+    border: 1px solid #1272A8;
+    transform: rotate(-0.15deg);
+}
+
+.texto_projetos{
+    position: absolute;
+    width: 722px;
+    height: 263px;
+    left: 155px;
+    top: 929.02px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.link_videos{
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 233px;
+    top: 1660px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+
+
+.link_blog{
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 754px;
+    top: 1660px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+
+
+.link_instagram{
+    position: absolute;
+    width: 177px;
+    height: 30px;
+    top: 2335px;
+    left: 377px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
