@@ -1,14 +1,14 @@
 .imagem_topo_curso {
     position: absolute;
-    width: 1024px;
-    height: 287.93px;
+    width: 100%;
+    height: 350px;
     left: 0px;
     top: 51px;
 }
 
 .navbar{
     position: absolute;
-    width: 1024px;
+    width: 100%;
     height: 51px;
     left: 0px;
     top: 0px;
@@ -20,7 +20,7 @@
     position: absolute;
     width: 79px;
     height: 35px;
-    left: 609px;
+    right: 300px;
     top: 16px;
 
     font-family: 'Inter';
@@ -36,7 +36,7 @@
     position: absolute;
     width: 79px;
     height: 35px;
-    left: 672px;
+    right: 250px;
     top: 16px;
 
     font-family: 'Inter';
@@ -52,7 +52,7 @@
     position: absolute;
     width: 79px;
     height: 35px;
-    left: 735px;
+    right: 200px;
     top: 16px;
 
     font-family: 'Inter';
@@ -68,7 +68,7 @@
     position: absolute;
     width: 79px;
     height: 35px;
-    left: 819px;
+    right: 130px;
     top: 16px;
 
     font-family: 'Inter';
@@ -84,7 +84,7 @@
     position: absolute;
     width: 79px;
     height: 35px;
-    left: 890px;
+    right: 70px;
     top: 16px;
 
     font-family: 'Inter';
@@ -100,7 +100,7 @@
     position: absolute;
     width: 79px;
     height: 35px;
-    left: 945px;
+    right: 20px;
     top: 16px;
 
     font-family: 'Inter';
@@ -114,10 +114,8 @@
 
 .titulo_sobre{
     position: absolute;
-    width: 308px;
-    height: 17px;
-    left: 455px;
-    top: 380px;
+    left: 50%;
+    top: 400px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -131,9 +129,8 @@
 .linha_1{
     position: absolute;
     width: 382px;
-    height: 0px;
-    left: 321px;
-    top: 418.02px;
+    left: 43%;
+    top: 425.02px;
 
     border: 1px solid #1272A8;
     transform: rotate(-0.15deg);
@@ -143,7 +140,7 @@
     position: absolute;
     width: 722px;
     height: 263px;
-    left: 155px;
+    left: 30%;
     top: 421px;
 
     font-family: 'Inter';
@@ -456,3 +453,9 @@
     background: #1272A8;
 }
 
+@media (max-width: 768px) {
+    .imagem_topo_curso{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
