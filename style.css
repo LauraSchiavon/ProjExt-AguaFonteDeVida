@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .imagem_topo_curso {
     position: absolute;
     width: 100%;
@@ -10,9 +15,7 @@
     position: absolute;
     width: 100%;
     height: 51px;
-    left: 0px;
-    top: 0px;
-
+   
     background: #1272A8;
 }
 
@@ -123,14 +126,15 @@
     font-size: 30px;
     line-height: 36px;
 
+   
     color: #1272A8;
 }
 
 .linha_1{
     position: absolute;
     width: 382px;
-    left: 43%;
-    top: 425.02px;
+    left: 40%;
+    top: 435px;
 
     border: 1px solid #1272A8;
     transform: rotate(-0.15deg);
@@ -140,8 +144,8 @@
     position: absolute;
     width: 722px;
     height: 263px;
-    left: 30%;
-    top: 421px;
+    left: 27%;
+    top: 440px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -159,7 +163,7 @@
     position: absolute;
     width: 149px;
     height: 151px;
-    left: 442px;
+    left: 50%;
     top: 666px;
 }
 
@@ -167,8 +171,8 @@
     position: absolute;
     width: 308px;
     height: 17px;
-    left: 444px;
-    top: 885px;
+    left: 50%;
+    top: 900px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -182,9 +186,8 @@
 .linha_2{
     position: absolute;
     width: 382px;
-    height: 0px;
-    left: 328px;
-    top: 922.02px;
+    left: 41%;
+    top: 935px;
 
     border: 1px solid #1272A8;
     transform: rotate(-0.15deg);
@@ -194,8 +197,8 @@
     position: absolute;
     width: 722px;
     height: 263px;
-    left: 155px;
-    top: 929.02px;
+    left: 27%;
+    top: 940px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -211,16 +214,15 @@
     position: absolute;
     width: 240px;
     height: 230px;
-    left: 106px;
+    left: 15%;
     top: 1214px;
-    display: block;
 }
 
 .imagem_projeto_2{
     position: absolute;
     width: 240px;
     height: 230px;
-    left: 397px;
+    left: 45%;
     top: 1214px;
 }
 
@@ -228,7 +230,7 @@
     position: absolute;
     width: 240px;
     height: 230px;
-    left: 678px;
+    left: 75%;
     top: 1214px;
 }
 
@@ -236,7 +238,7 @@
     position: absolute;
     width: 56px;
     height: 23px;
-    left: 233px;
+    left: 30%;
     top: 1660px;
 
     font-family: 'Inter';
@@ -255,7 +257,7 @@
     position: absolute;
     width: 308px;
     height: 17px;
-    left: 198px;
+    left: 28.5%;
     top: 1543px;
 
     font-family: 'Inter';
@@ -271,7 +273,7 @@
     position: absolute;
     width: 219px;
     height: 53px;
-    left: 150px;
+    left: 24%;
     top: 1595px;
 
     font-family: 'Inter';
@@ -289,7 +291,7 @@
     position: absolute;
     width: 308px;
     height: 17px;
-    left: 730px;
+    left: 75%;
     top: 1543px;
 
     font-family: 'Inter';
@@ -305,7 +307,7 @@
     position: absolute;
     width: 282px;
     height: 47px;
-    left: 631px;
+    left: 68%;
     top: 1591px;
 
     font-family: 'Inter';
@@ -322,7 +324,7 @@
     position: absolute;
     width: 56px;
     height: 28px;
-    left: 754px;
+    left: 76%;
     top: 1660px;
 
     font-family: 'Inter';
@@ -341,7 +343,7 @@
     position: absolute;
     width: 382px;
     height: 0px;
-    left: 328px;
+    left: 41%;
     top: 1561px;
 
     border: 1px solid #1272A8;
@@ -352,7 +354,7 @@
     position: absolute;
     width: 308px;
     height: 29px;
-    left: 446px;
+    left: 50%;
     top: 1746px;
 
     font-family: 'Inter';
@@ -367,8 +369,7 @@
 .linha_4{
     position: absolute;
     width: 382px;
-    height: 0px;
-    left: 328px;
+    left: 41%;
     top: 1781.02px;
 
     border: 1px solid #1272A8;
@@ -388,8 +389,9 @@
     font-size: 20px;
     line-height: 24px;
 
+    z-index: 2;
+
     color: #FFFFFF;
-    background: #1272A8
 }
 
 .fone{
@@ -405,8 +407,9 @@
     font-size: 20px;
     line-height: 24px;
 
+    z-index: 2;
+
     color: #FFFFFF;
-    background: #1272A8
 }
 
 .whatsapp{
@@ -422,12 +425,13 @@
     font-size: 20px;
     line-height: 24px;
 
+    z-index: 2;
+
     color: #FFFFFF;
-    background: #1272A8
 }
 
 .email{
-    position: absolute;
+    position: relative;
     width: 177px;
     height: 30px;
     left: 63px;
@@ -439,16 +443,17 @@
     font-size: 20px;
     line-height: 24px;
 
+    z-index: 2;
+
     color: #FFFFFF;
-    background: #1272A8
 }
 
 .fundo{
     position: absolute;
-    width: 1024px;
+    width: 100%;
     height: 96px;
-    left: 0px;
-    top: 2282px;
+    top: 2288px;
+    z-index: 1;
 
     background: #1272A8;
 }
