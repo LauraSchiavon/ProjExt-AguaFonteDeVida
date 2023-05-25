@@ -154,6 +154,8 @@
     line-height: 15px;
     text-align: center;
 
+    z-index: 2;
+
     color: #000000;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -165,6 +167,76 @@
     height: 151px;
     left: 50%;
     top: 666px;
+}
+
+.imagem_fundo_1{
+    position: absolute;
+    right: 60%;
+    top: 616px;
+    transform: rotate(90deg);
+    
+}
+
+.imagem_fundo_2{
+    position: absolute;
+    width: 403px;
+    height: 566px;
+    left: 70%;
+    top: 389px;
+
+    z-index: 1;
+}
+
+.imagem_fundo_3{
+    position: absolute;
+    width: 235px;
+    height: 186px;
+    left: 65%;
+    top: 855px;
+    
+    z-index: 1;
+}
+
+.imagem_fundo_4{
+    position: absolute;
+    width: 235px;
+    height: 186px;
+    left: 46%;
+    top: 1565px;
+}
+
+.imagem_fundo_5{
+    position: absolute;
+    width: 134px;
+    height: 92px;
+    left: 83%;
+    top: 1490px;
+    transform: rotate(-15.07deg);
+}
+
+.imagem_fundo_6{
+    position: absolute;
+    width: 134px;
+    height: 92px;
+    left: 18%;
+    top: 1490px;
+    transform: rotate(15.07deg);
+}
+
+.imagem_fundo_7{
+    position: absolute;
+    width: 198px;
+    height: 58px;
+    left: 24%;
+    top: 1669px;
+}
+
+.imagem_fundo_8{
+    position: absolute;
+    width: 198px;
+    height: 58px;
+    left: 71%;
+    top: 1669px;
 }
 
 .titulo_projetos{
@@ -207,13 +279,17 @@
     line-height: 15px;
     text-align: center;
 
+    z-index: 2;
+
     color: #000000;
 }
+
 
 .imagem_projeto_1{
     position: absolute;
     width: 240px;
     height: 230px;
+    object-fit: cover;
     left: 15%;
     top: 1214px;
 }
@@ -222,6 +298,7 @@
     position: absolute;
     width: 240px;
     height: 230px;
+    object-fit: cover;
     left: 45%;
     top: 1214px;
 }
@@ -230,6 +307,7 @@
     position: absolute;
     width: 240px;
     height: 230px;
+    object-fit: cover;
     left: 75%;
     top: 1214px;
 }
@@ -378,8 +456,7 @@
 
 .link_instagram{
     position: absolute;
-    width: 177px;
-    height: 30px;
+
     top: 2335px;
     left: 377px;
 
@@ -456,6 +533,16 @@
     z-index: 1;
 
     background: #1272A8;
+}
+
+.imagem_fim{
+    position: absolute;
+    width: 86px;
+    height: 82px;
+    left: 92%;
+    top: 2290px;
+    
+    z-index: 2;
 }
 
 @media (max-width: 768px) {
