@@ -142,17 +142,17 @@
 
 .texto_sobre{
     position: absolute;
-    width: 722px;
-    height: 263px;
-    left: 27%;
+    left: 5%;
+    padding: 10px 350px;
     top: 440px;
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 00;
+    font-size: 18px;
     line-height: 15px;
-    text-align: center;
+    text-indent: 20px;
+    text-align: justify;
 
     z-index: 2;
 
@@ -267,17 +267,17 @@
 
 .texto_projetos{
     position: absolute;
-    width: 722px;
-    height: 263px;
-    left: 27%;
+    left: 5%;
+    padding: 10px 350px;
     top: 940px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 15px;
-    text-align: center;
+    text-indent: 20px;
+    text-align: justify;
 
     z-index: 2;
 
